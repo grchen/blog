@@ -1,0 +1,12 @@
+rm -fr source themes
+cp -r ~/blog/source .
+cp -r ~/blog/themes .
+cp ~/blog/_config.yml .
+cp -r ~/blog/scaffolds/ .
+git add .
+git add source
+git add themes
+git add scaffolds
+git commit -m "update data"
+git push
+
