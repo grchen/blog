@@ -1,3 +1,4 @@
+npm install -g hexo-cli
 npm install
 npm install hexo-renderer-pug --save
 npm install hexo-renderer-sass --save
